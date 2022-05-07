@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {FormControl} from "@angular/forms";
+import {map, Observable, startWith} from "rxjs";
 
 @Component({
   selector: 'app-authentification',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthentificationComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+constructor() {
+}
+  ngOnInit() {
   }
+
+
+
 
 }
