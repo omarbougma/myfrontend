@@ -7,6 +7,7 @@ import {RegisterComponent} from "./view/postuler/register/register.component";
 import {FooterComponent} from "./view/footer/footer.component";
 import {ContactComponent} from "./view/contact/contact.component";
 import {PostulerManifestationComponent} from "./view/postuler/postuler-manifestation/postuler-manifestation.component";
+import {ChoisirPostulerComponent} from "./view/choisir-postuler/choisir-postuler.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'footer', component: FooterComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'postulerm', component: PostulerManifestationComponent},
+  {path: 'choisir-postuler', component: ChoisirPostulerComponent },
 ];
 
 @NgModule({
