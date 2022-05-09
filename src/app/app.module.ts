@@ -11,7 +11,7 @@ import {MatMenuModule} from "@angular/material/menu";
 import {RouterModule} from "@angular/router";
 import {MatButtonModule} from "@angular/material/button";
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome'
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {InputTextModule} from "primeng/inputtext";
 import {ButtonModule} from "primeng/button";
 import {PasswordModule} from "primeng/password";
@@ -27,6 +27,11 @@ import {PostulerManifestationComponent} from "./view/postuler/postuler-manifesta
 import {AuthentificationComponent} from "./view/postuler/authentification/authentification.component";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatStepperModule} from "@angular/material/stepper";
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatIconModule} from "@angular/material/icon";
+import {MatNativeDateModule} from "@angular/material/core";
+import {CalendarModule} from "primeng/calendar";
 
 @NgModule({
   declarations: [
@@ -56,7 +61,13 @@ import {MatFormFieldModule} from "@angular/material/form-field";
     CardModule,
     FontAwesomeModule,
     MatAutocompleteModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatStepperModule,
+    FormsModule,
+    MatDatepickerModule,
+    MatIconModule,
+    MatNativeDateModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
