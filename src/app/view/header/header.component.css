@@ -2,7 +2,7 @@
 
 body{
 
-  background-color: #eee;
+  background-color: #12121e;
 }
 
 .navbar-nav>li>a{
@@ -10,7 +10,7 @@ body{
   text-transform: uppercase;
   font-size: 12px;
   margin-right:20px;
-  color: #fff;
+  color: #18181c;
 }
 .navbar>img {
   height: 10px;
@@ -29,7 +29,7 @@ body{
 
 .nav-link{
 
-  color: #fff !important;
+  color: #131318 !important;
 }
 
 
@@ -44,7 +44,7 @@ body{
 
 .navbar-brand{
 
-  color:#fff;
+  color: #131318;
   font-family: 'Allerta Stencil', sans-serif;
   margin-bottom: 4px;
   font-size: 27px;
@@ -58,14 +58,14 @@ body{
 
 .navbar-brand:hover{
 
-  color:#fff;
+  color: #18181c;
 
 }
 
 .navbar-red{
 
-  background-color: #a99e9e;
-  color: #fff;
+  background-color: #ffffff;
+  color: #a64512;
 
 }
 
