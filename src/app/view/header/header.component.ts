@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 import {PrimeNGConfig} from "primeng/api";
+import {ContactComponent} from "../contact/contact.component";
 
 @Component({
   selector: 'app-header',
@@ -13,7 +14,9 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  register() {
-    this.router.navigate(['/view/home']);
+
+
+  home() {
+    this.router.navigateByUrl('/contact');
   }
 }
