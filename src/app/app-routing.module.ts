@@ -9,6 +9,9 @@ import {ContactComponent} from "./view/contact/contact.component";
 import {PostulerManifestationComponent} from "./view/postuler/postuler-manifestation/postuler-manifestation.component";
 import {ChoisirPostulerComponent} from "./view/choisir-postuler/choisir-postuler.component";
 import {PostulerMissionComponent} from "./view/postuler/postuler-mission/postuler-mission.component";
+import {
+  InformationSurDemandeurComponent
+} from "./view/postuler/information-sur-demandeur/information-sur-demandeur.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
@@ -19,6 +22,8 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'postuler-manif', component: PostulerManifestationComponent},
   {path: 'postuler-mission', component: PostulerMissionComponent},
+  {path: 'postuler-info', component: InformationSurDemandeurComponent},
+
   {path: 'choisir-postuler', component: ChoisirPostulerComponent },
 ];
 
