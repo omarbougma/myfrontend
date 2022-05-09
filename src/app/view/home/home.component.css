@@ -540,7 +540,7 @@ body {
   height: 44px;
   width: 44px;
   border-radius: 50%;
-  background-color: #3252D1;
+  background-color: #8c370b;
   border: none
 }
 
@@ -575,39 +575,32 @@ body {
 
 /btn/
 
+.btn-outline-primary {
+  color: #c25012;
+  border: 2px solid #ffffff;
+
+}
 
 .btn {
-  height: 50px;
-  width: 140px;
-  cursor: pointer;
-  border: none;
-  border: 2px solid #18181c;
-  color: #131318;
-  background: none;
-  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding: 14px 45px;
+  border-radius: 45px;
+  font-weight: 500;
+  border: 1px solid;
   position: relative;
-  overflow: hidden;
-  transition: all 0.5s;
-  font-size: 17px
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden
 }
 
-.btn:hover {
-  color: #fff;
-  z-index: 999
+.hover-bg-primary .btn {
+  transition: unset
 }
 
-.btn::before {
-  content: "";
-  position: absolute;
-  height: 0%;
-  width: 100%;
-  background-color: #12121e;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.5s
-}
-
-.btn:hover::before {
-  height: 100%
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background: none;
+  border: 2px solid #c25012
 }

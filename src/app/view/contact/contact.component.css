@@ -34,7 +34,7 @@
 }
 .container{
   min-height:100vh;
-  background-color:#3e2093;
+  background-color: #c25012;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -81,7 +81,7 @@
   padding:10px;
 }
 .stats1 span:nth-child(1){
-  color:#5f30e2;
+  color: #a64512;
   font-size:18px;
 }
 .stats1 span:nth-child(2){
@@ -190,7 +190,7 @@
   height:30px;
   width:200px;
   border:none;
-  background-color:#5f30e2;
+  background-color: #c25012;
   color:#fff;
   font-size:12px;
   border-radius:10px;

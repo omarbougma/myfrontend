@@ -8,14 +8,17 @@ import {FooterComponent} from "./view/footer/footer.component";
 import {ContactComponent} from "./view/contact/contact.component";
 import {PostulerManifestationComponent} from "./view/postuler/postuler-manifestation/postuler-manifestation.component";
 import {ChoisirPostulerComponent} from "./view/choisir-postuler/choisir-postuler.component";
+import {PostulerMissionComponent} from "./view/postuler/postuler-mission/postuler-mission.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   {path: 'register', component: RegisterComponent},
   {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'footer', component: FooterComponent},
   {path: 'contact', component: ContactComponent},
-  {path: 'postulerm', component: PostulerManifestationComponent},
+  {path: 'postuler-manif', component: PostulerManifestationComponent},
+  {path: 'postuler-mission', component: PostulerMissionComponent},
   {path: 'choisir-postuler', component: ChoisirPostulerComponent },
 ];
 
