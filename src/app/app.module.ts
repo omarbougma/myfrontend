@@ -32,6 +32,7 @@ import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatIconModule} from "@angular/material/icon";
 import {MatNativeDateModule} from "@angular/material/core";
 import {CalendarModule} from "primeng/calendar";
+import { InformationSurDemandeurComponent } from './view/postuler/information-sur-demandeur/information-sur-demandeur.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {CalendarModule} from "primeng/calendar";
     AuthentificationComponent,
     RegisterComponent,
     ContactComponent,
-    AdminComponent
+    AdminComponent,
+    InformationSurDemandeurComponent
   ],
   imports: [
     BrowserModule,
