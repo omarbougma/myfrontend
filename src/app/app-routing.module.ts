@@ -9,10 +9,15 @@ import {ContactComponent} from "./view/contact/contact.component";
 import {PostulerManifestationComponent} from "./view/postuler/postuler-manifestation/postuler-manifestation.component";
 import {ChoisirPostulerComponent} from "./view/choisir-postuler/choisir-postuler.component";
 import {PostulerMissionComponent} from "./view/postuler/postuler-mission/postuler-mission.component";
+import {
+  InformationSurDemandeurComponent
+} from "./view/postuler/information-sur-demandeur/information-sur-demandeur.component";
+import {LoginComponent} from "./view/postuler/login/login.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   {path: 'register', component: RegisterComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'home', component: HomeComponent},
   {path: '', component: HomeComponent},
   {path: 'footer', component: FooterComponent},
@@ -20,6 +25,7 @@ const routes: Routes = [
   {path: 'postuler-manif', component: PostulerManifestationComponent},
   {path: 'postuler-mission', component: PostulerMissionComponent},
   {path: 'choisir-postuler', component: ChoisirPostulerComponent },
+  {path: 'information-dem', component: InformationSurDemandeurComponent},
 ];
 
 @NgModule({

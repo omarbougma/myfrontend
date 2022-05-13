@@ -1,58 +1,61 @@
-<div class ="row">
-  <div class="col-md-6 mx-auto p-0">
-    <div class="card">
-      <div class="login-box">
-        <div class="login-snip">
-          <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label>
-          <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-          <div class="login-space">
-            <div class="login">
-              <div class="group">
-                <label for="user" class="label">Username</label>
-                <input id="user" type="text" class="input"  placeholder="Enter your username">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password">
-              </div>
-              <div class="group">
-                <input id="check" type="checkbox" class="check" checked>
-                <label for="check"><span class="icon"></span> Keep me Signed in</label>
-              </div>
-              <div class="group">
-                <input routerLink="/choisir-postuler" type="submit" class="button" value="Sign In">
-              </div>
-              <div class="hr"></div>
-              <div class="foot">
-                <a href="#">Forgot Password?</a>
-              </div>
-            </div>
-            <div class="sign-up-form">
-              <div class="group">
-                <label for="user" class="label">Username</label>
-                <input id="user" type="text" class="input" placeholder="Create your Username">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Repeat Password</label>
-                <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password" >
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Email Address</label>
-                <input id="pass" type="text" class="input" placeholder="Enter your email address">
-              </div>
-              <div class="group">
-                <input type="submit" class="button" value="Sign Up">
-              </div>
-              <div class="hr"></div>
-              <div class="foot">
-                <label for="tab-1">Already Member?</label>
-              </div>
-            </div>
+<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+  <div class="card card0 border-0">
+    <div class="row d-flex">
+      <div class="col-lg-6">
+        <div class="card1 pb-5">
+          <div class="row">
+            <img src="https://seeklogo.com/images/U/universite-cadi-ayyad-marrakech-maroc-logo-CCE5BB11B1-seeklogo.com.png" class="logo">
           </div>
+          <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+            <img src="https://www.dreamjob.ma/wp-content/uploads/2021/06/Universite-Cadi-Ayyad-Concours-Emploi-Recrutement-1.jpg" class="image">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card2 card border-0 px-4 py-5">
+          <div class="row px-3 mb-4"  >
+
+            <a href="#" class="register" style="padding-left: 400px;" routerLink="/login">S'identifier?</a>
+          </div>
+          <div class="row px-3" style="">
+            <label class="mb-1"><h6 class="mb-0 text-sm">Nom</h6></label>
+            <input class="mb-4" type="text" name="email" placeholder="Entrer votre nom">
+          </div>
+          <div class="row px-3" >
+            <label class="mb-1"><h6 class="mb-0 text-sm">Prenom</h6></label>
+            <input class="mb-4" type="text" name="email" placeholder="Entrer votre prenom">
+          </div>
+          <div class="row px-3" >
+            <label class="mb-1"><h6 class="mb-0 text-sm">Adresse Email </h6></label>
+            <input class="mb-4" type="email" name="email" placeholder="Entrez une adresse e-mail valide">
+          </div>
+          <div class="row px-3" >
+            <label class="mb-1"><h6 class="mb-0 text-sm"> Mot de passe</h6></label>
+            <input type="password" name="password" placeholder="Entrer le mot de passe">
+          </div>
+          <div class="row px-3" >
+            <label class="mb-1"><h6 class="mb-0 text-sm" style="padding-top: 20px">Confirmez le mot de passe</h6></label>
+            <input type="password" name="password" placeholder="Confirmez le mot de passe">
+          </div>
+          <div class="row px-3 mb-4"  >
+
+            <a href="#" class="password" style="padding-left: 300px;" routerLink="/contact">Mot de passe oublié?</a>
+          </div>
+          <div class="row mb-3 px-3" style="padding-top: 30px">
+            <button type="submit" class="btn btn-blue text-center">Valider</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue py-4" >
+      <div class="row px-3" >
+        <small style="width: 400px" >Copyright ©2015 UCA Marrakech</small>
+        <div class="social-contact ml-4 ml-sm-auto" style="width:200px; padding-top: 0px;padding-bottom: 90px">
+          <span class="fa fa-facebook mr-4 text-sm"></span>
+          <span class="fa fa-google-plus mr-4 text-sm"></span>
+          <span class="fa fa-linkedin mr-4 text-sm"></span>
+          <span class="fa fa-twitter mr-4 mr-sm-5 text-sm"></span>
         </div>
       </div>
     </div>

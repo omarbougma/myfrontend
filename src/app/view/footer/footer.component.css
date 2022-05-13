@@ -1,80 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
-  background-color: #a64512;
+  background-color: #e5e5dc;
+  font-family: 'Open Sans', serif;
+  font-size: 14px
 }
 
-.card {
-  background-color: #a64512;
-  color: white;
-  margin-top: 50px;
-  border: none;
+.container-fluid {
+  margin-top: 50px
 }
 
-.head1 {
-  font-weight: 900;
-  font-size: 30px;
+.footer-copyright {
+  margin-top: 13px
 }
 
-.bdr {
-  border-bottom: 1.5px solid #FFB74D;
-  width: 65px;
-  margin-right: auto;
-  margin-left: auto;
+a {
+  text-decoration: none !important;
+  color: #777a7c
 }
 
-.card-footer {
-  justify-content: space-between;
-  border: none;
-  background: none;
-  border-bottom: 0.5px solid #9E9E9E;
+.description {
+  font-size: 12px
 }
 
-.footer-right>i {
-  margin-left: 15px;
+.fa-facebook-f {
+  color: #3b5999
 }
 
-.fa-hand-holding-usd {
-  color: #FFB74D;
+.fa-instagram {
+  color: #e4405f
 }
 
-.fa-handshake {
-  color: #FFB74D;
+.fa-youtube {
+  color: #cd201f
 }
 
-.card-title {
-  margin-bottom: .75rem;
-  font-weight: 900;
-  font-size: 15px;
-  margin-top: 1.75rem;
+.fa-twitter {
+  color: #55acee
 }
 
-.learn-more {
-  color: #FFB74D;
+.logo-footer{
+  color: #26495c;
 }
 
-.fa-angle-right {
-  margin-left: 10px;
-}
-
-.fa-3x {
-  color: #FFB74D;
-}
-
-.card-content {
-  padding-right: 40px;
-  padding-left: 30px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.card-content>p {
-  color: #9E9E9E;
-}
-
-.heading {
-  position: relative;
-  top: 75px;
-}
-
-.follow-text {
-  color: #9E9E9E;
+.footer-copyright p {
+  margin-top: 10px
 }
