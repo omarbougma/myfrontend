@@ -12,19 +12,20 @@ import {PostulerMissionComponent} from "./view/postuler/postuler-mission/postule
 import {
   InformationSurDemandeurComponent
 } from "./view/postuler/information-sur-demandeur/information-sur-demandeur.component";
+import {LoginComponent} from "./view/postuler/login/login.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   {path: 'register', component: RegisterComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'home', component: HomeComponent},
   {path: '', component: HomeComponent},
   {path: 'footer', component: FooterComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'postuler-manif', component: PostulerManifestationComponent},
   {path: 'postuler-mission', component: PostulerMissionComponent},
-  {path: 'postuler-info', component: InformationSurDemandeurComponent},
-
   {path: 'choisir-postuler', component: ChoisirPostulerComponent },
+  {path: 'information-dem', component: InformationSurDemandeurComponent},
 ];
 
 @NgModule({

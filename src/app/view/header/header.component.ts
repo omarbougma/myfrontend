@@ -9,6 +9,7 @@ import {ContactComponent} from "../contact/contact.component";
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  menu: any;
 
   constructor(private router: Router) { }
 

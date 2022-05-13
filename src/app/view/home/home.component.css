@@ -488,7 +488,7 @@ body {
 .card {
   height: 450px;
   width: 100%;
-  background-image: url('https://www.mapmarrakech.ma/map/uploads/2020/04/UCA-Marrakech-copier.jpg');
+  background-image: url('https://www.uca.ma/public/files/images/site-1-71fd4eea1a48eeec6f6f166251b331d2-1954562316.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border: none;
@@ -498,9 +498,8 @@ body {
   cursor: pointer;
   transition: all 1s
 }
-
 .card:hover {
-  background-image: url('https://www.uca.ma/public/files/images/site-1-71fd4eea1a48eeec6f6f166251b331d2-1954562316.png');
+  background-image: url('https://www.mapmarrakech.ma/map/uploads/2020/04/UCA-Marrakech-copier.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat
 }
@@ -604,3 +603,9 @@ body {
   background: none;
   border: 2px solid #c25012
 }
+
+
+
+
+
+

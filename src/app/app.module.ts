@@ -4,7 +4,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 
 
-import {AdminComponent} from './view/admin/admin.component';
 import {AppRoutingModule} from './app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatMenuModule} from "@angular/material/menu";
@@ -24,7 +23,6 @@ import {ContactComponent} from "./view/contact/contact.component";
 import {PostulerMissionComponent} from "./view/postuler/postuler-mission/postuler-mission.component";
 import {ChoisirPostulerComponent} from "./view/choisir-postuler/choisir-postuler.component";
 import {PostulerManifestationComponent} from "./view/postuler/postuler-manifestation/postuler-manifestation.component";
-import {AuthentificationComponent} from "./view/postuler/authentification/authentification.component";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatStepperModule} from "@angular/material/stepper";
@@ -33,6 +31,17 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatNativeDateModule} from "@angular/material/core";
 import {CalendarModule} from "primeng/calendar";
 import { InformationSurDemandeurComponent } from './view/postuler/information-sur-demandeur/information-sur-demandeur.component';
+import { HeaderaComponent } from './view/admin/headera/headera.component';
+import {AdminComponent} from "./view/admin/admin.component";
+import { SidenavComponent } from './view/admin/sidenav/sidenav.component';
+import { DashboardComponent } from './view/admin/dashboard/dashboard.component';
+import {TableModule} from "primeng/table";
+import {DropdownModule} from "primeng/dropdown";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatTableModule} from "@angular/material/table";
+import {DemandeursComponent} from "./view/admin/demandeurs/demandeurs.component";
+import {LoginComponent} from "./view/postuler/login/login.component";
+import {AuthentificationComponent} from "./view/admin/authentification/authentification.component";
 
 @NgModule({
   declarations: [
@@ -43,11 +52,16 @@ import { InformationSurDemandeurComponent } from './view/postuler/information-su
     ChoisirPostulerComponent,
     PostulerMissionComponent,
     PostulerManifestationComponent,
-    AuthentificationComponent,
     RegisterComponent,
     ContactComponent,
+    InformationSurDemandeurComponent,
     AdminComponent,
-    InformationSurDemandeurComponent
+    HeaderaComponent,
+    SidenavComponent,
+    DashboardComponent,
+    DemandeursComponent,
+    LoginComponent,
+    AuthentificationComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +83,11 @@ import { InformationSurDemandeurComponent } from './view/postuler/information-su
     MatDatepickerModule,
     MatIconModule,
     MatNativeDateModule,
-    CalendarModule
+    CalendarModule,
+    TableModule,
+    DropdownModule,
+    MatPaginatorModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
