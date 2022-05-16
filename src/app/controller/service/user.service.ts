@@ -106,6 +106,21 @@ export class UserService {
     );
   }
 
+  addFilesManif(manifId: number, documents: documents): Observable<Object> {
+    const formData = new FormData();
+    console.log(typeof documents.filecin.name);
+    formData.append('filecin', documents.filecin, documents.filecin.name);
+    formData.append('fileA', documents.fileA, documents.fileA.name);
+    formData.append('fileB', documents.fileB, documents.fileB.name);
+    formData.append('fileC', documents.fileC, documents.fileC.name);
+    formData.append('fileD', documents.fileD, documents.fileD.name);
+    formData.append('fileE', documents.fileE, documents.fileE.name);
+    return this.httpClient.post(
+      `${this.baseUrl + '/add_documentM/' + manifId}`,
+      formData
+    );
+  }
+
   addAll(
     mStage: MissionStage,
     cadre: Cadre,
@@ -117,6 +132,15 @@ export class UserService {
     return this.httpClient.post(
       `${this.baseUrl + '/missionstageadd'}`,
       mStage,
+      { withCredentials: true }
+    );
+  }
+
+  addAllManif(manif: Manifestation, soutien: Soutien): Observable<Object> {
+    manif.setsoutien = soutien;
+    return this.httpClient.post(
+      `${this.baseUrl + '/manifestationadd'}`,
+      manif,
       { withCredentials: true }
     );
   }
